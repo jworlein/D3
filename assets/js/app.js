@@ -403,7 +403,7 @@ function createTooltip(circlesGroup) {
         ylabel = "Obesity";
     }
 
-    // Step 1: Initialize Tooltip
+    // Step 1: Initialize Tooltip  
     var toolTip = d3.tip()
         .attr("class", "d3-tip")
         .offset([180, -30])
